@@ -1,0 +1,92 @@
+/*Css reset */
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.first-section {
+    background-image: url("../images/IMG_9780.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+img {
+    height: 100%;
+}
+
+
+/* Navbar */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links > li:first-child {
+    text-decoration: underline;
+}
+
+.links > li:last-child {
+    margin-right: 0px;
+}
+
+.hero-content {
+    padding: 40vh 0 10vh 0;
+    width: 50%;
+}
+
+.hero-title {
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+
+.hero-subtitle {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+
+/* Utilities */
+
+.first-section {
+    padding: 0 6vh;
+    width: 100%;
+}
+
+.btn {
+    padding: 14px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-green {
+    background-color: #0d0;
+    color:#fff;
+    font-weight: bold;
+
+}
+
+.btn-large {
+    font-size: 20px;
+    padding: 14px 10px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+
+
+/* Media Queries*/
